@@ -1,0 +1,155 @@
+.skillsPercent{
+	display: inline-block;
+	height: 20px;
+	background-color: #404040;
+}
+
+.percentLabel {
+	color: #f23041;
+}
+
+#summary .clearNav {
+  margin-top: 0;
+}
+
+#skills div:last-child {
+	margin-bottom: 20px;
+}
+
+#headerContainer {
+	padding-left: 10px;
+	width: 100%;
+	background-image: -webkit-linear-gradient(top, rgb(242, 102, 102),rgb(249,193,193));
+	background-image: -moz-linear-gradient(rgb(242, 102, 102),rgb(249,193,193));
+	background-image: -ms-linear-gradient(rgb(242, 102, 102),rgb(249,193,193));
+	background-image: -o-linear-gradient(rgb(242, 102, 102),rgb(249,193,193));
+	background-image: linear-gradient(to top, rgb(242, 102, 102),rgb(249,193,193));
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 1px outset #f26666;
+}
+#infoContainer {
+	margin-top: 5px;
+	padding-top: 10px;
+	float: left;
+	color:#263140;
+	font-size: 20px;
+}
+
+#navContainer {
+	float: right;
+	margin-top: 5px;
+	padding-right: 10px;
+}
+
+a.anchor{
+	color: #263140;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #f37575;
+	color: white;
+}
+
+body {
+	font-size: 16px;
+}
+
+ul {
+	margin-left: 0;
+}
+
+h4 {
+	color: #f26666;
+	font-size: 1.5em;
+	margin-bottom: 2px;
+}
+
+.cursiveFont {
+	font-family: cursive;
+}
+
+.navItem {
+	display: inline-block;
+	border-right: 1px outset #f26666;
+	border-bottom: 1px outset #f26666;
+	/*background-image: -webkit-linear-gradient(left,rgba(242, 102, 102, 1),rgba(249,193,193, 0.5));
+	background-image: -moz-linear-gradient(left,rgba(242, 102, 102, 1),rgba(249,193,193, 0.5));
+	background-image: -ms-linear-gradient(left,rgba(242, 102, 102, 1),rgba(249,193,193, 0.5));
+	background-image: -o-linear-gradient(left,rgba(242, 102, 102, 1),rgba(249,193,193, 0.5));
+	background-image: linear-gradient(to left, rgba(242, 102, 102, 1),rgba(249,193,193, 0.5));*/
+
+	background-image: -webkit-linear-gradient(top, rgb(242, 102, 102),rgb(249,193,193));
+	background-image: -moz-linear-gradient(rgb(242, 102, 102),rgb(249,193,193));
+	background-image: -ms-linear-gradient(rgb(242, 102, 102),rgb(249,193,193));
+	background-image: -o-linear-gradient(rgb(242, 102, 102),rgb(249,193,193));
+	background-image: linear-gradient(to top, rgb(242, 102, 102),rgb(249,193,193));
+	border-radius: 10px;
+	width: 120px;
+	height: 40px;
+	list-style: none outside none;
+	text-align: center;
+}
+
+.clearNav {
+    padding-top: 85px;
+    margin-top: -85px;
+ }
+
+#container {
+	margin-left: 100px;
+}
+
+#mail {
+	text-decoration: none;
+	color: #263140;
+}
+
+.clear {
+	clear:both;
+}
+
+.experience {
+	float: left;
+	width: 45%;
+	/*background-color: #67F570;*/
+}
+
+.year {
+	float: right;
+	width: 55%;
+	/*background-color: #67F570;*/
+}
+
+img {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+section div article div ul{
+	background-color: #67F570;
+	/*background-color: white;
+	background:url(cardboard.png);*/
+}
+
+section ul {
+	/*background-color: #67F570;
+	/*background:url(old_moon.png);*/
+}
+
+div header span {
+	/*background-color: #67F570;
+	/*margin-left: 50%;*/
+}
+
+section > div {
+	/*background-color: #67F570;
+	/*background:url(old_moon.png);*/
+}
+
+*:target {
+	color:#263140;
+}
